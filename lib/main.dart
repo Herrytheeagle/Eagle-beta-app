@@ -1,17 +1,27 @@
-import 'package:flutter/material.dart':
+import 'package:flutter/material.dart';
 
-main() {
- runApp(MyApp())
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
- build(context) {
-   return MaterialApp(
-     home: Scaffold(
-       appBar: AppBar(
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
          title: Text('EagleApp'),
-       ),
-      ),
-    );
+        ),
+        body: Column(
+          children: [
+            RaisedButton(child: ,),
+          Card(
+            child: Column(
+              children: <Widget>[
+                Image.asset('assets/food.jpg'),
+                Text('Food paradise')
+              ],
+            ),
+          ),],),
+        ),
+      );
  }
 }
