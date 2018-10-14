@@ -25,20 +25,28 @@ class _MyAppState extends State<MyApp> {
             Container(
               margin: EdgeInsets.all(10.0),
               child: RaisedButton(
-                onPressed: () {},
+                onPressed: () {
+                  setState(() {
+                    _products.add('Advanced Eaglet Tester');
+                  print(_products);
+                                    });
+                },
                 child: Text('Add Nest'),
               ),
             ),
-            Column(children: _products
-            .map((element) => Card(
-              child: Column(
-                children: <Widget>[
-                  Image.asset('assets/food.jpg'),
-                  Text(element)
-                ],
-              ),
-            )) 
-          .toList()
+            Column(
+              children: _products
+                .map(
+                  (element) => Card(
+                        child: Column(
+                          children: <Widget>[
+                            Image.asset('assets/food.jpg'),
+                            Text(element)
+                          ],
+                        ),
+                      ),
+                    ) 
+                    .toList()
             ),
           ],
         ),),
