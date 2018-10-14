@@ -15,7 +15,6 @@ class _ProductManagerState extends State<ProductManager> {
   
   @override
     Widget build(BuildContext context) {
-      // TODO: implement build
       return  Column(children: [Container(
         margin: EdgeInsets.all(10.0),
         child: RaisedButton(
