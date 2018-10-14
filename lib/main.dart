@@ -28,7 +28,6 @@ class _MyAppState extends State<MyApp> {
                 onPressed: () {
                   setState(() {
                     _products.add('Advanced Eaglet Tester');
-                  print(_products);
                                     });
                 },
                 child: Text('Add Nest'),
