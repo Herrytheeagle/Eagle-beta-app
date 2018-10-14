@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import './product_manager.dart';
-import './products.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
          title: Text('EagleApp'),
         ),
-        body: ProductManager(),
+        body: ProductManager('Eagle tester'),
         ),
       );
     }
