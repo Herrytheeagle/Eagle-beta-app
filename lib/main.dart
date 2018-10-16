@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
          title: Text('EagleApp'),
         ),
-        body: ProductManager('Eagle tester '),
+        body: ProductManager(),
         ),
       );
     }
