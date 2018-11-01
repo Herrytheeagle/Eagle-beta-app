@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme:ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.deepOrange,
+        primarySwatch: Colors.dee pOrange,
         accentColor: Colors.deepPurple
       ) ,
       home: Scaffold(
