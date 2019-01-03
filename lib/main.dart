@@ -10,14 +10,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme:ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.dee pOrange,
+        primarySwatch: Colors.deepOrange,
         accentColor: Colors.deepPurple
       ) ,
       home: Scaffold(
         appBar: AppBar(
          title: Text('EagleApp'),
         ),
-        body: ProductManager(),
+        body: ProductManager(startingProduct:'Eagle tester '),
         ),
       );
     }
