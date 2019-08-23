@@ -7,7 +7,8 @@ class ProductManager extends StatefulWidget {
 
   ProductManager({this.startingProduct = 'Birds Tester'}) {
     print('[ProductManager Widget] Constructor');
-  }
+  } 
+ 
 
   @override
     State<StatefulWidget> createState() {
@@ -23,7 +24,7 @@ class _ProductManagerState extends State<ProductManager> {
   void initState() {
     print('[ProductsManager State] initState()');
     _products.add(widget.startingProduct);
-    super.initState();
+    super.initState(); 
   }
 
   @override
